@@ -59,3 +59,5 @@ TEXT_COLORS={
         os.sleep(INTEREVAL)
     end
 end
+
+run()
