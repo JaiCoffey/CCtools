@@ -41,14 +41,14 @@ TEXT_COLORS={
     --increments color index
     col_indx= col_indx + 1
     --clears last display
-    monitor.clear
+    monitor.clear()
     monitor.setTestScale(TEXT_SCALE)
     monitor.setCursorPos(TEXT_X_POS,2)
     monitor.setBackgroundColor(backCol)
     monitor.setTextColor(textCol)
     
     monitor.write(TEXT)
-    
+
 
  end
  function run()
