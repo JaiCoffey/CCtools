@@ -32,7 +32,7 @@ BACK_COLORS={
 
  function changeCol(monitor)
     --checks if index is within range
-     if col_indx > tableLength(BACK_COLORS)then
+     if col_indx > #BACK_COLORS then
         col_indx=1
     end
     --sets background and text color
