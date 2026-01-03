@@ -5,7 +5,7 @@ TEXT_SCALE = 3
 
 
 TEXT_X_POS = 1
-TEXT="Welcome To DinePart"
+TEXT= "Welcome To DinePart"
 
 TEXT_COLORS={
     colors.white,
@@ -17,7 +17,7 @@ TEXT_COLORS={
     colors.purple,
     colors.black
 }
- BACK_COLORS={
+BACK_COLORS={
     colors.orange,
     colors.red,
     colors.purple,
@@ -42,7 +42,7 @@ TEXT_COLORS={
     col_indx= col_indx + 1
     --clears last display
     monitor.clear()
-    monitor.setTestScale(TEXT_SCALE)
+    monitor.setTextScale(TEXT_SCALE)
     monitor.setCursorPos(TEXT_X_POS,2)
     monitor.setBackgroundColor(backCol)
     monitor.setTextColor(textCol)
